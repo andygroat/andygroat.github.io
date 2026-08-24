@@ -1,5 +1,5 @@
 ---
-title: "Continous Integration"
+title: "Continuous Integration"
 date: 2026-08-24
 ---
 
@@ -11,15 +11,15 @@ date: 2026-08-24
 
 ## Intro
 
-In the previous posts we have setup the APIs with some basic functionality and then added some testing to ensure that there are no bugs and we don't break that functionality with future updates. Now we need to have a look at the repos and ensuring that when code is being checked that it can still build and the code is high enough quality. This is where CI (Continous Integration) comes in.
+In the previous posts we have setup the APIs with some basic functionality and then added some testing to ensure that there are no bugs and we don't break that functionality with future updates. Now we need to have a look at the repos and ensuring that when code is being checked that it can still build and the code is high enough quality. This is where CI (Continuous Integration) comes in.
 
 The complete yml pipelines can be found in the repos.
 
-Continous Integration is usually accompanied with Continous Deployment (CD) so you get a full CI/CD workflow. The CI part is quite large, so I will focus on it in this post and hopeully get round to doing another post on CD later on.
+Continuous Integration is usually accompanied with Continuous Deployment (CD) so you get a full CI/CD workflow. The CI part is quite large, so I will focus on it in this post and hopeully get round to doing another post on CD later on.
 
-## Continous Integration (CI)
+## Continuous Integration (CI)
 
-**Continous Integration** is a practice that requires frequently committing code to a repository, which will show errors early and reduces the amount of code to debug to fix the error.
+**Continuous Integration** is a practice that requires frequently committing code to a repository, which will show errors early and reduces the amount of code to debug to fix the error.
 
 After each code push or pull request we will want to run a **CI Pipeline** which will ensure that the code in the repo will build and tests will run.
 
@@ -71,7 +71,7 @@ The name of the pipeline and how the pipeline will be triggered should start of 
 
 ```yml
 # Name the Workflow/Pipeline, this appears on the Github Actions page, so keep it easy to understand and recognisable.
-name: main-continous-integration
+name: main-continuous-integration
 
 # Setup the triggers for the pipeline, this the event that occurs that trigger this pipeline to run.
 # Trigger the CI pipeline on push or pull request (main branch)
