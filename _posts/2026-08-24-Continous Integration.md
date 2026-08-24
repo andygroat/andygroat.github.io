@@ -1,5 +1,5 @@
 ---
-title: "CI"
+title: "Continous Integration"
 date: 2026-08-24
 ---
 
