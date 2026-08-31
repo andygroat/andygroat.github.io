@@ -13,7 +13,6 @@ date: 2026-08-31
 
 This post follows on from my [previous post](https://andygroat.github.io/2026/08/26/Copilot-Instructions.html) in which I went through what I add to a `copilot-instructions.md` file to provide GitHub Copilot with context and rules to apply when working in the repositories. This post will look at the output that GitHub Copilot can now generate with this context.
 
-![Copilot Working](/assets/post-images/CopilotWorking.png "Copilot Working")
 <img src="/assets/post-images/CopilotWorking.png" alt="Copilot Working" style="width:100%; height:auto;" />
 
 The repositories started with some very basic functionality for creating some todo items, retreiving them and marking them as completed. For this post I will extend the functionality of the APIs to allow the creation, deletion and retreival of shopping lists. These shopping lists will be able to have shopping list items, and there will be functionality for creating, deleting and retreiving shopping list items.
