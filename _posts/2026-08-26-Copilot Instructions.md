@@ -13,6 +13,8 @@ date: 2026-08-26
 
 In my previous posts I have implemented an initial setup of the projects with some endpoints, added testing and setup continuous integration when checking in updates to the repositories in GitHub. Before adding any more functionality to the APIs, its time to bring in AI to assist with the development. I have been using GitHub Copilot for a while and this post will give an overview of customising Copilot to get the most of it.
 
+<img src="/assets/post-images/CopilotInstructions.png" alt="Copilot Instructions" style="width:100%; height:auto;" />
+
 ## Instructions
 
 With GitHub Copilot we can pass custom instructions to it by using a `copilot-instructions.md`. To have these instructions apply to the entire repository it needs to be located in the `.github` folder at repository level. This is a [markdown](https://www.markdownguide.org/) file, so you can use all your normal formatting etc that you are used to doing in `readme.md` files.
